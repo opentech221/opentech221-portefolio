@@ -62,7 +62,8 @@ body {
     transition: var(--transition);
 }
 
-.nav-menu a:hover {
+.nav-menu a:hover,
+.nav-menu a.active {
     color: var(--primary-color);
 }
 
@@ -82,8 +83,14 @@ body {
 
 .hero-content p {
     font-size: 1.3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     animation: fadeInUp 0.6s ease-out 0.2s both;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem !important;
+    margin-bottom: 2rem !important;
+    animation: fadeInUp 0.6s ease-out 0.3s both;
 }
 
 .cta-button {
@@ -112,16 +119,75 @@ body {
 .about h2 {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     color: var(--primary-color);
 }
 
-.about p {
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content > p {
     text-align: center;
     font-size: 1.1rem;
-    max-width: 600px;
-    margin: 0 auto;
     color: var(--secondary-color);
+    margin-bottom: 2rem;
+}
+
+.about-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.highlight {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.highlight i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.highlight h3 {
+    color: var(--dark-color);
+    margin: 1rem 0 0.5rem;
+}
+
+.highlight p {
+    color: var(--secondary-color);
+    font-size: 0.95rem;
+}
+
+.interests {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.interests h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.interests ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.interests li {
+    color: var(--text-color);
+    padding: 0.5rem 0;
 }
 
 /* Projects Section */
@@ -261,7 +327,10 @@ body {
 .contact-content p {
     font-size: 1.1rem;
     color: var(--secondary-color);
-    margin-bottom: 2rem;
+}
+
+.contact-subtitle {
+    margin-bottom: 2rem !important;
 }
 
 .contact-links {
@@ -269,6 +338,7 @@ body {
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
+    margin-top: 2rem;
 }
 
 .contact-link {
@@ -298,6 +368,21 @@ body {
     margin-top: 3rem;
 }
 
+.footer-social {
+    margin-top: 1rem;
+}
+
+.footer-social a {
+    color: var(--primary-color);
+    margin: 0 0.5rem;
+    font-size: 1.3rem;
+    transition: var(--transition);
+}
+
+.footer-social a:hover {
+    color: white;
+}
+
 /* Animations */
 @keyframes fadeInDown {
     from {
@@ -325,6 +410,7 @@ body {
 @media (max-width: 768px) {
     .nav-menu {
         gap: 1rem;
+        flex-wrap: wrap;
     }
 
     .hero-content h1 {
@@ -335,6 +421,10 @@ body {
         font-size: 1rem;
     }
 
+    .hero-subtitle {
+        font-size: 0.9rem !important;
+    }
+
     .projects h2,
     .skills h2,
     .about h2,
@@ -343,11 +433,17 @@ body {
     }
 
     .projects-grid,
-    .skills-grid {
+    .skills-grid,
+    .about-highlights {
         grid-template-columns: 1fr;
     }
 
     .contact-links {
         flex-direction: column;
+    }
+
+    .contact-link {
+        width: 100%;
+        justify-content: center;
     }
 }

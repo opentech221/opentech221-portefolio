@@ -1,33 +1,146 @@
+# Portfolio - opentech221
 
+👋 Bienvenue sur mon portfolio personnel ! Ce projet présente mes compétences, projets et expériences en développement web, cloud et DevOps.
 
-<!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
--->
+## 📋 Contenu
 
-## Step 2: Configure your site
+- **Accueil** - Présentation personnelle avec call-to-action
+- **À propos** - Informations détaillées sur mon profil
+- **Projets** - Galerie de mes réalisations (Web Development, DevOps & Cloud, Python & Backend)
+- **Compétences** - Compétences techniques organisées par catégories
+- **Contact** - Moyens de me contacter
 
-_You turned on GitHub Pages! :tada:_
+## 🛠️ Technologies utilisées
 
-We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
+- **Frontend** : HTML5, CSS3, JavaScript (Vanilla)
+- **Design** : Responsive Design, CSS Grid & Flexbox
+- **Icons** : Font Awesome 6.4.0
+- **Animation** : CSS Animations, Intersection Observer API
 
-Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
+## 👨‍💻 À propos
 
-We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
+Je suis un développeur passionné par :
+- 🌍 Web Development (React, Node.js)
+- ☁️ Cloud Computing (AWS, Azure, Google Cloud)
+- 🐳 DevOps (Docker, Kubernetes, CI/CD)
+- 🐍 Backend (Python, Django, Flask)
+- 🤖 Machine Learning
+- 🏔️ Hiking & Nature Photography
 
-### :keyboard: Activity: Configure your site
+**Compétences principales :**
+- Langages: Python, JavaScript, HTML, CSS, SQL
+- Frameworks: Django, Flask, React, Node.js, Express
+- Bases de Données: MySQL, PostgreSQL, MongoDB
+- DevOps & Cloud: Docker, Kubernetes, AWS, Azure, Google Cloud
+- Outils: Git, GitHub, VS Code, Linux
 
-1. Browse to the `_config.yml` file in the `my-pages` branch.
-1. In the upper right corner, open the file editor.
-1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
-   ```yml
-   theme: minima
+## 📱 Responsive Design
+
+Le portfolio s'adapte parfaitement à tous les appareils :
+- 💻 Desktop
+- 📱 Tablette
+- 📲 Mobile
+
+## 🚀 Comment l'utiliser
+
+### Installation locale
+
+```bash
+# Clonez le repository
+git clone https://github.com/opentech221/opentech221-portefolio.git
+
+# Accédez au répertoire
+cd opentech221-portefolio
+
+# Ouvrez index.html dans votre navigateur
+```
+
+### En ligne
+
+Votre portfolio est accessible à : `https://opentech221.github.io/opentech221-portefolio`
+
+## 📝 Personnalisation
+
+### Modifier les informations personnelles
+
+1. **index.html** - Mettez à jour le contenu principal
+   - Titre et présentation
+   - Descriptions des projets
+   - Liens de contact
+
+2. **styles.css** - Personnalisez le design
+   ```css
+   :root {
+       --primary-color: #007bff;      /* Couleur principale */
+       --secondary-color: #6c757d;    /* Couleur secondaire */
+       --dark-color: #1a1a1a;         /* Noir */
+       --light-color: #f8f9fa;        /* Blanc cassé */
+   }
    ```
-1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
-1. Commit your changes.
-1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
+3. **script.js** - Modifiez les interactions
 
+### Ajouter vos propres projets
+
+1. Dupliquez une section `.project-card`
+2. Mettez à jour le titre, description et tags
+3. Ajoutez les liens vers vos projets réels
+
+### Mettre à jour les compétences
+
+1. Modifiez les catégories dans la section Skills
+2. Ajoutez/supprimez des compétences selon vos besoins
+
+## 🎨 Schéma de couleurs personnalisés
+
+Pour changer complètement le schéma de couleurs, modifiez simplement les variables CSS :
+
+```css
+:root {
+    --primary-color: #FF6B6B;    /* Rouge personnalisé */
+    --secondary-color: #FFE66D;  /* Jaune personnalisé */
+    --dark-color: #2C2C54;       /* Noir personnalisé */
+    --light-color: #F0F0F0;      /* Blanc personnalisé */
+}
+```
+
+## 📧 Contact
+
+- **Email**: cheikhtidianesamba.ba@ucad.edu.sn
+- **GitHub**: [github.com/opentech221](https://github.com/opentech221)
+- **LinkedIn**: [linkedin.com/in/opentech221](https://www.linkedin.com/in/opentech221)
+- **Twitter**: [@opentech221](https://twitter.com/opentech221)
+- **Website**: [opentech221.sn](https://opentech221.sn)
+
+## ⭐ Fonctionnalités
+
+✅ Design moderne et responsive
+✅ Animations fluides au scroll
+✅ Navigation sticky avec surlignage actif
+✅ Section contact avec liens vers les réseaux
+✅ Optimisé pour tous les navigateurs
+✅ Chargement rapide
+✅ SEO-friendly
+
+## 📄 License
+
+Ce projet est sous la licence MIT. Voir le fichier LICENSE pour plus de détails.
+
+## 🤝 Contribuer
+
+Vous avez des suggestions d'amélioration ? N'hésitez pas à :
+1. Fork ce repository
+2. Créer une branche (`git checkout -b feature/AmazingFeature`)
+3. Commit vos modifications (`git commit -m 'Add some AmazingFeature'`)
+4. Push vers la branche (`git push origin feature/AmazingFeature`)
+5. Ouvrir une Pull Request
+
+## 📈 Statistiques GitHub
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=opentech221&show_icons=true&theme=radical)
+
+---
+
+**Dernière mise à jour**: 15 Juin 2026
+
+**Créé avec ❤️ par opentech221**

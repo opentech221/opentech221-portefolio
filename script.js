@@ -27,8 +27,8 @@ const observer = new IntersectionObserver(function(entries) {
     });
 }, observerOptions);
 
-// Observe all project cards and skill categories
-document.querySelectorAll('.project-card, .skill-category').forEach(el => {
+// Observe all project cards, skill categories and highlights
+document.querySelectorAll('.project-card, .skill-category, .highlight').forEach(el => {
     el.style.opacity = '0';
     observer.observe(el);
 });
@@ -57,3 +57,4 @@ window.addEventListener('scroll', () => {
 
 // Add console message
 console.log('Portfolio opentech221 chargé avec succès ! 🚀');
+console.log('Visitez: https://opentech221.sn');
