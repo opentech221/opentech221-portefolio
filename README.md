@@ -1,54 +1,70 @@
-<header>
+# Portfolio - opentech221
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+Bienvenue sur mon portfolio personnel ! Ce projet présente mes compétences, projets et expériences en développement web.
 
-# GitHub Pages
+## 🎯 Contenu
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+- **Accueil** - Présentation personnelle
+- **À propos** - Informations sur moi
+- **Projets** - Galerie de mes réalisations
+- **Compétences** - Compétences techniques
+- **Contact** - Moyens de me contacter
 
-</header>
+## 🛠️ Technologies utilisées
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Font Awesome (icônes)
 
-## Step 1: Enable GitHub Pages
+## 📱 Responsive Design
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+Le portfolio s'adapte à tous les appareils (desktop, tablette, mobile).
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+## 🚀 Comment l'utiliser
 
-### :keyboard: Activity: Enable GitHub Pages
+1. Clonez le repository
+2. Ouvrez `index.html` dans votre navigateur
+3. Personnalisez le contenu avec vos informations
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
+## 📝 Personnalisation
 
-<footer>
+### Modifier les infos personnelles
+- Mettez à jour le nom et la description dans `index.html`
+- Changez les couleurs dans les variables CSS (`:root` dans `styles.css`)
+- Modifiez les liens de contact et réseaux sociaux
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+### Ajouter vos projets
+- Dupliquez la section `.project-card`
+- Mettez à jour le titre, description et tags
+- Ajoutez les liens vers vos projets
+
+### Mettre à jour les compétences
+- Modifiez les catégories et listes de compétences
+- Ajoutez ou supprimez des éléments selon vos besoins
+
+## 🎨 Customisation des couleurs
+
+Modifiez les variables dans `styles.css` :
+
+```css
+:root {
+    --primary-color: #007bff;      /* Bleu principal */
+    --secondary-color: #6c757d;    /* Gris secondaire */
+    --dark-color: #1a1a1a;         /* Noir foncé */
+    --light-color: #f8f9fa;        /* Blanc cassé */
+}
+```
+
+## 📧 Contact
+
+- Email: votre.email@example.com
+- GitHub: [github.com/opentech221](https://github.com/opentech221)
+
+## 📄 License
+
+Ce projet est sous la licence MIT. Voir le fichier LICENSE pour plus de détails.
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+**Dernière mise à jour**: 2026
