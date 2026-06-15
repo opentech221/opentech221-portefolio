@@ -1,70 +1,33 @@
-# Portfolio - opentech221
 
-Bienvenue sur mon portfolio personnel ! Ce projet présente mes compétences, projets et expériences en développement web.
 
-## 🎯 Contenu
+<!--
+  <<< Author notes: Step 2 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
+  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
+-->
 
-- **Accueil** - Présentation personnelle
-- **À propos** - Informations sur moi
-- **Projets** - Galerie de mes réalisations
-- **Compétences** - Compétences techniques
-- **Contact** - Moyens de me contacter
+## Step 2: Configure your site
 
-## 🛠️ Technologies utilisées
+_You turned on GitHub Pages! :tada:_
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Font Awesome (icônes)
+We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
 
-## 📱 Responsive Design
+Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
 
-Le portfolio s'adapte à tous les appareils (desktop, tablette, mobile).
+We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
 
-## 🚀 Comment l'utiliser
+### :keyboard: Activity: Configure your site
 
-1. Clonez le repository
-2. Ouvrez `index.html` dans votre navigateur
-3. Personnalisez le contenu avec vos informations
+1. Browse to the `_config.yml` file in the `my-pages` branch.
+1. In the upper right corner, open the file editor.
+1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
+   ```yml
+   theme: minima
+   ```
+1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
+1. Commit your changes.
+1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
+1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
-## 📝 Personnalisation
 
-### Modifier les infos personnelles
-- Mettez à jour le nom et la description dans `index.html`
-- Changez les couleurs dans les variables CSS (`:root` dans `styles.css`)
-- Modifiez les liens de contact et réseaux sociaux
-
-### Ajouter vos projets
-- Dupliquez la section `.project-card`
-- Mettez à jour le titre, description et tags
-- Ajoutez les liens vers vos projets
-
-### Mettre à jour les compétences
-- Modifiez les catégories et listes de compétences
-- Ajoutez ou supprimez des éléments selon vos besoins
-
-## 🎨 Customisation des couleurs
-
-Modifiez les variables dans `styles.css` :
-
-```css
-:root {
-    --primary-color: #007bff;      /* Bleu principal */
-    --secondary-color: #6c757d;    /* Gris secondaire */
-    --dark-color: #1a1a1a;         /* Noir foncé */
-    --light-color: #f8f9fa;        /* Blanc cassé */
-}
-```
-
-## 📧 Contact
-
-- Email: votre.email@example.com
-- GitHub: [github.com/opentech221](https://github.com/opentech221)
-
-## 📄 License
-
-Ce projet est sous la licence MIT. Voir le fichier LICENSE pour plus de détails.
-
----
-
-**Dernière mise à jour**: 2026
